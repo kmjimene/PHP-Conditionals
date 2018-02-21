@@ -1,0 +1,29 @@
+<?php 
+// store each quote in a string variable
+  $quote1 = '"There are many ways of going forward, but only one way of standing still." - Franklin D. Roosevelt';
+  $quote2 = '"The best preparation for tomorrow is doing your best today." - H. Jackson Brown, Jr.';
+  $quote3 = '"Put your heart, mind, and soul into even your smallest acts. This is the secret of success." - Swami Sivananda';
+  $quote4 = '"The only way to discover the limits of the possible is to go beyond them into the impossible." - Arthur C. Clarke';
+  $quote5 = '"Change your thoughts and you change your world." - Norman Vincent Peale';
+  $quote6 = '"If opportunity doesn\'t knock, build a door." - Milton Berle';
+  $quote7 = '"No matter what people tell you, words and ideas can change the world." - Robin Williams';
+// create a variable containing the day of the week
+  $day = date('N');
+// use an if statement to test for the day of the week
+if ($day == 1) {
+  echo $quote1;
+} elseif ($day == 2) {
+  echo $quote2;
+} elseif ($day == 3) {
+  echo $quote3;
+} elseif ($day == 4) {
+  echo $quote4;
+} elseif ($day == 5) {
+  echo $quote5;
+} elseif ($day == 6) {
+  echo $quote6;
+} elseif ($day == 7) {
+  echo $quote7;
+}
+// display the corresponding exercise in a string
+?>
