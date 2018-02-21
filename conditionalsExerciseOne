@@ -1,10 +1,12 @@
 <?php
 $name = 'Kat';
-$string_one = "Learning to display \"Hello " . $name . "!\" to the screen.";
-//echo $string_one;
+$string_one = "";
 
 if ($string_one == 'Learning to display "Hello Kat!" to the screen.') {
 echo 'the values match';
+} elseif ($string_one == "") {
+  echo '$string_one is empty';
+} else {
+  echo 'the values DO NOT match';
 }
 ?>
- 
