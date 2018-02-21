@@ -1,0 +1,31 @@
+//Check if each student has a GPA of 4.0.
+
+//If the student has a GPA of 4.0, use the student name variable to replace NAME when displaying the following line:
+
+//NAME made the Honor Roll
+
+//ELSE If the students GPA is not equal to 4.0, within an else block, use the student name variable to replace NAME AND the student GPA variable to replace STUDENT GPA when displaying the following line:
+
+//NAME has a GPA of STUDENT GPA
+
+
+<?php
+$studentOneName = 'Dave';
+$studentOneGPA = 3.8;
+
+$studentTwoName = 'Treasure';
+$studentTwoGPA = 4.0;
+
+//Place your code below this comment
+if ($studentOneGPA == 4.0) {
+  echo "$studentOneName made the Honor Roll";
+} else {
+  echo "$studentOneName has a GPA of $studentOneGPA";
+}
+
+if ($studentTwoGPA == 4.0) {
+  echo "$studentTwoName made the Honor Roll";
+} else {
+  echo "$studentTwoName has a GPA of $studentOneGPA";
+}
+?>
